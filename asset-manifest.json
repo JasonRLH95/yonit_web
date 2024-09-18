@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yonit_web/static/css/main.7cefc306.css",
-    "main.js": "/yonit_web/static/js/main.07c37289.js",
+    "main.css": "/yonit_web/static/css/main.b0b29e13.css",
+    "main.js": "/yonit_web/static/js/main.f5b71ccc.js",
     "static/media/yonit_video1.mp4": "/yonit_web/static/media/yonit_video1.20ac740823490cb5ff1e.mp4",
     "static/media/navbar_background5.jpg": "/yonit_web/static/media/navbar_background5.8a6f9f01c571e0765270.jpg",
     "static/media/navbar_background1.jpg": "/yonit_web/static/media/navbar_background1.194a9f12680498ffcd7b.jpg",
@@ -69,11 +69,11 @@
     "static/media/wave.png": "/yonit_web/static/media/wave.e68497afbde30f862124.png",
     "static/media/tiktok_icon.webp": "/yonit_web/static/media/tiktok_icon.3badb492ca23d3c77801.webp",
     "index.html": "/yonit_web/index.html",
-    "main.7cefc306.css.map": "/yonit_web/static/css/main.7cefc306.css.map",
-    "main.07c37289.js.map": "/yonit_web/static/js/main.07c37289.js.map"
+    "main.b0b29e13.css.map": "/yonit_web/static/css/main.b0b29e13.css.map",
+    "main.f5b71ccc.js.map": "/yonit_web/static/js/main.f5b71ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cefc306.css",
-    "static/js/main.07c37289.js"
+    "static/css/main.b0b29e13.css",
+    "static/js/main.f5b71ccc.js"
   ]
 }
