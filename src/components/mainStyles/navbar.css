@@ -10,12 +10,21 @@
     background-position: 0 16%;
     position: relative;
 }
+.navbar_buttons_container{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .navbar_button{
-    width: 150px;
+    width: 25%;
     height: 80%;
     background-color: transparent;
     border: none;
-    font-size: 23px;
+    /* font-size: 23px; */
+    font-size: 2vw;
     color: white;
     cursor: pointer;
 }

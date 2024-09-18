@@ -5,7 +5,9 @@
     display: flex;
     flex-direction: row;
 }
-.content_left{
+
+.content_right, .content_left{
+    min-width: 250px;
     width: 33.333%;
     height: 100%;
     background-size: contain;
@@ -14,6 +16,7 @@
     background-color: black;
 }
 .content_middle{
+    min-width: 450px;
     width: 33.333%;
     height: 100%;
     display: flex;
@@ -40,11 +43,4 @@
 }
 .content_middle_inner_li{
     font-weight: bold;
-}
-.content_right{
-    width: 33.333%;
-    height: 100%;
-    background-size: cover;
-    background-position: 0;
-    
 }
