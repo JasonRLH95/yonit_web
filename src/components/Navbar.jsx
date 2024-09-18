@@ -12,11 +12,11 @@ export default function Navbar({ images, social }) {
           <a className='social_link' href={social.tiktok.url} target='_blank' alt="social_img" style={{backgroundImage: `url(${social.tiktok.tiktok})`}} id='tiktok_icon'></a>
           <a className='social_link' href={social.facebook.url} target='_blank' alt="social_img" style={{backgroundImage: `url(${social.facebook.facebook})`}} id='facebook_icon'></a>
         </div>
-        <button className='navbar_button' onClick={()=>{nav("/")}}>Home</button>
+        <button className='navbar_button' onClick={()=>{nav("/yonit_web")}}>Home</button>
         <button className='navbar_button' onClick={()=>{nav("/events")}}>Events</button>
         <button className='navbar_button' onClick={()=>{nav("/courses")}}>Courses</button>
         <button className='navbar_button' onClick={()=>{nav("/about")}}>About</button>
-        <div className='navbar_logo' onClick={()=>{nav("/")}} style={{backgroundImage: `url(${images.logo.logo})`}}></div>
+        <div className='navbar_logo' onClick={()=>{nav("/yonit_web")}} style={{backgroundImage: `url(${images.logo.logo})`}}></div>
     </div>
   )
 }

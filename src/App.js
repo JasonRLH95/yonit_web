@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Navbar images={images} social={social}/>
         <Routes>
-          <Route path='/' element={<Home images={images} articles={articles}/>}/>
+          <Route path='/yonit_web' element={<Home images={images} articles={articles}/>}/>
         </Routes>
       </BrowserRouter>    
     </div>
