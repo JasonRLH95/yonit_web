@@ -1,0 +1,77 @@
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    /* background-position: 0 92%; */
+    background-position: 0 16%;
+    position: relative;
+}
+.navbar_button{
+    width: 150px;
+    height: 80%;
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+}
+.navbar_button:hover{
+    color: black;
+    text-shadow: 3px 3px 5px white;
+}
+.navbar_logo{
+    width: 90px;
+    height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    right: 40px;
+    background-size: cover;
+    background-position: -32px 0;
+    cursor: pointer;
+    filter:invert(100);
+}
+.social_container{
+    position: absolute;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social_link{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 0;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+.social_link:hover{
+    scale: 0.8;
+    filter:invert(100);
+}
+.social_container #tiktok_icon{
+    background-size: 115%;
+    background-position: 20%;
+}
+.social_container #facebook_icon{
+    background-size: 95%;
+    background-position: 59% -40%;
+}
+.social_container #instagram_icon{
+    background-size: 135%;
+    background-position: 46%;
+}
+.social_container #instagram_icon:hover{
+    scale: 0.8;
+    filter: invert(100);
+    background-position: 45%;
+}

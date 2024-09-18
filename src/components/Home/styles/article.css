@@ -1,0 +1,20 @@
+.article{
+    width: 35vw;
+    height: 75vh;
+    background-size: cover;
+    border-radius: 100px;
+    transition: 0.2s all ease;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+}
+.article:hover{
+    scale: 0.9;
+    filter: brightness(70%);
+    color: white;
+}

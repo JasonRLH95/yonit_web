@@ -1,0 +1,17 @@
+.gap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gap_top{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+}
+.gap_bottom{
+    width: 100%;
+    height: 36vh;
+    filter:brightness(0);
+    rotate: 180deg;
+    background-position: -30px -1px;
+}

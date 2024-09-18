@@ -1,0 +1,59 @@
+
+.eventCard_main{
+    width: 33.333%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: contain; */
+    /* background-color: yellowgreen; temporary */
+    /* background: url("../../../assets/meditate1_AI.jpg"); */
+    background-size: cover;
+    background-position: 0;
+}
+.eventCard{
+    width: 75%;
+    height: 40vh;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.223);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url("../../../assets/meditate1_AI.jpg"); */
+}
+.card_middle{
+    /* background-color: red; */
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card_middle_p{
+    /* background-color: blue; */
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+    margin: 0;
+}
+.card_bottom{
+    width: 100%;
+}
+.card_bottom_button{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(244, 94, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+.card_bottom_button:hover{
+    color: black;
+}
